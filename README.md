@@ -23,8 +23,6 @@ ChatGPT-Virtual-Live 是一个基于 Python 的虚拟主播直播助手，可以
 系统架构
 ----
 
-![系统架构图](https://chat.openai.com/architecture.png)
-
 系统主要分为以下几个模块：
 
 *   弹幕获取模块：通过 blivedm 和 DouyinBarrageGrab 获取直播间和短视频的弹幕信息，并将信息传输给语义理解模块。
@@ -42,7 +40,9 @@ ChatGPT-Virtual-Live 是一个基于 Python 的虚拟主播直播助手，可以
 1.  下载代码并安装依赖：
     
     ```
-    bashCopy codegit clone https://github.com/your_username/ChatGPT-Virtual-Live.git cd ChatGPT-Virtual-Live pip install -r requirements.txt
+    git clone https://github.com/smallnew666/ChatGPT-Virtual-Live.git 
+    cd ChatGPT-Virtual-Live 
+    pip install -r requirements.txt
     ```
 2.  配置参数：
     
@@ -51,19 +51,14 @@ ChatGPT-Virtual-Live 是一个基于 Python 的虚拟主播直播助手，可以
 
 *   `BILI_ROOM_ID`：B 站直播间的房间号
     
-*   `DOUYIN_SHORT_VIDEO_URL`：抖音短视频的分享链接
-    
 *   `CHATGPT_ENDPOINT`：ChatGPT 服务器的 API 地址
     
-*   `EDGE_TTS_ENDPOINT`：Edge TTS 服务器的 API 地址
-    
-*   `LIVE_SOFTWARE_API`：直播软件的 API 地址和密钥
     
 
 4.  运行程序：
     
     ```
-    cssCopy codepython main.py
+    python bilibili.py
     ```
 
 注意事项
