@@ -1,0 +1,9 @@
+pygame
+edge-tts
+openai
+aiohttp
+Brotli==1.0.9
+requests
+numpy
+gtts
+urllib3==1.25.11
