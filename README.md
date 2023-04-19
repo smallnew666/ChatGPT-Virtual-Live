@@ -68,5 +68,8 @@ ChatGPT-Virtual-Live 是一个基于 Python 的虚拟主播直播助手，可以
 *   请遵守 B 站、抖音等平台的使用规范，不得用于违法或有害活动。
 
 
-获取更详细教程
+获取更详细教程，欢迎加入知识星球，里面包括免费api key分享，chatgpt教程等相关知识
 ----
+
+![2023-04-17 17 58](https://user-images.githubusercontent.com/24582880/233049472-8a731396-933a-4401-a773-f0ed58cc7b13.jpg)
+
