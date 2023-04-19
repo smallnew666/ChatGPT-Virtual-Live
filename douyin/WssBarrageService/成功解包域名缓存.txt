@@ -1,0 +1,6 @@
+webcast3-ws-web-lq.douyin.com
+webcast3-ws-web-lf.douyin.com
+webcast3-ws-web-hl.douyin.com
+webcast100-ws-web-hl.amemv.com
+webcast100-ws-web-lq.amemv.com
+webcast100-ws-web-lf.amemv.com
