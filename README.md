@@ -60,7 +60,6 @@ ChatGPT-Virtual-Live 是一个基于 Python 的虚拟主播直播助手，可以
     ```
     python bilibili.py
     ```
-
 注意事项
 ----
 
