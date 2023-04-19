@@ -19,10 +19,7 @@ print(config.sections())
 room_id = config.getint('DEFAULT', 'room_id')
 openai_api_key = config.get('DEFAULT', 'openai.api_key')
 set = config.get('DEFAULT', 'set')
-#打印set的类型
-print(type(set))
 print(room_id)
-print(set)
 
 # 直播间ID的取值看直播间URL
 TEST_ROOM_IDS = [
