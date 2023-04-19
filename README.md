@@ -4,9 +4,19 @@ ChatGPT-Virtual-Live
 项目简介
 ----
 
-ChatGPT-Virtual-Live 是一个基于 Python 的虚拟主播直播助手，可以通过 blivedm 接口和监听程序获取 B 站、抖音弹幕信息，并将弹幕信息传输给 ChatGPT 进行语义理解和回复，最后将 vtuber 的说话画面推送给直播软件。项目的目标是为虚拟主播提供更加智能、丰富的直播体验，提升观众的互动感和沉浸感。
+ChatGPT-Virtual-Live 是一个基于 Python 的虚拟主播直播助手，可以通过 blivedm 接口和监听程序获取 B 站、抖音弹幕信息，并将弹幕信息传输给 ChatGPT 进行语义理解和回复，最后将 vtuber 的
+
+说话画面推送给直播软件。项目的目标是为虚拟主播提供更加智能、丰富的直播体验，提升观众的互动感和沉浸感。
 
 该项目基于开源项目 blivedm 和 DouyinBarrageGrab，感谢开源社区的贡献和支持。
+
+感谢开源项目 :
+
+https://github.com/xfgryujk/blivedm
+
+https://github.com/HaoDong108/DouyinBarrageGrab
+
+
 
 功能特性
 ----
