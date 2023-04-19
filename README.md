@@ -44,21 +44,39 @@ ChatGPT-Virtual-Live 是一个基于 Python 的虚拟主播直播助手，可以
     cd ChatGPT-Virtual-Live 
     pip install -r requirements.txt
     ```
-2.  配置参数：
+    安装虚拟麦克风程序VBCABLE_Driver_Pack43中的VBCABLE_Setup_x64.exe
+    
+    安装虚拟主播vtuber  https://store.steampowered.com/app/1325860/VTube_Studio/
+    
+2.  B站配置参数：
     
     在 `config.py` 文件中配置以下参数：
     
 
-*   `BILI_ROOM_ID`：B 站直播间的房间号
+*   `room_id`：B 站直播间的房间号
     
-*   `CHATGPT_ENDPOINT`：ChatGPT 服务器的 API 地址
+*   `openai.api_key`：ChatGPT apk-key
+
+3.  抖音配置参数：
+
+    配置`douyin.py`：
     
+    `openai.api_key`：ChatGPT apk-key
     
 
-4.  运行程序：
+4.  ### B站直播
+    运行程序：
     
     ```
     python bilibili.py
+    ```
+5.  ### 抖音直播
+    运行程序：
+    
+    运行监听程序
+    WssBarrageService.exe
+     ```
+    python douyin.py
     ```
 注意事项
 ----
