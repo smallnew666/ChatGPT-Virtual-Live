@@ -22,8 +22,8 @@ class wechatlive():
 
     def __init__(self):
         self.barrageList = {}
-        #self.cookie_string = input("请输入你的cookie: ")
-        self.cookie_string = 'promotewebsessionid=; sessionid=BgAAzr%2F%2FPx3Y80AxrWDWBpOOVnKoe%2Bg%2BrbeazJB8ndc1Lw01DiiiAO%2Fet56H%2BJAGTt5LHg57nCKCzQT9rByYJ639Hw%3D%3D; wxuin=1728252584'
+        self.cookie_string = input("请输入你的cookie: ")
+        #self.cookie_string = 'promotewebsessionid=; sessionid=BgAAzr%2F%2FPx3Y80AxrWDWBpOOVnKoe%2Bg%2BrbeazJB8ndc1Lw01DiiiAO%2Fet56H%2BJAGTt5LHg57nCKCzQT9rByYJ639Hw%3D%3D; wxuin=1728252584'
     def Connect(self):#连接
         chrome_options = webdriver.ChromeOptions()
         #chrome_options.add_argument("window-size=10,10")
