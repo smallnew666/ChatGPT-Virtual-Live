@@ -99,7 +99,7 @@ class wechatlive():
             if new_chat_msgs:  
                 last_data_id = new_chat_msgs[-1].find_element(By.XPATH, './/div[@data-index]').get_attribute('data-index')
                 text= last_barrage['msg']
-                openai.api_key = "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"
+                openai.api_key = ""
                 url = "https://api.openai.com/v1/engines/davinci-codex/completions"
                 messages =  [ {"role": "system", "content": "你是虚拟主播小雨酱，你会对用户的输入做出可爱的回应，并对你回复的观众施加可爱魔法，回答字数不要超过100字"},{"role": "user", "content": text}]
 
