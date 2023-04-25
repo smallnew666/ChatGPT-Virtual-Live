@@ -88,6 +88,16 @@ https://github.com/HaoDong108/DouyinBarrageGrab
      ```
     python douyin.py
     ```
+6.  ### 视频号直播
+    运行程序：
+    
+    视频号采用模拟web方式解析数据
+    首先下载chromedriver（http://chromedriver.storage.googleapis.com/index.html）
+    先扫码登录后台获取到cookie
+    然后运行代码
+     ```
+    python wechat.py
+    ```
 注意事项
 ----
 
