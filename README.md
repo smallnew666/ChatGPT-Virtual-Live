@@ -21,7 +21,7 @@ https://github.com/HaoDong108/DouyinBarrageGrab
 功能特性
 ----
 
-*   支持获取 B 站直播间、抖音直播间的弹幕信息
+*   支持获取 B 站直播间、抖音直播间、视频号的弹幕信息
     
 *   支持将弹幕信息传输给 ChatGPT 进行语义理解和回复
     
